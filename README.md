@@ -1,4 +1,4 @@
-# Manos Neofotistos Portfolio
+# Rigas Neofotistos Portfolio
 
 A minimal static portfolio built with Next.js, TypeScript, Tailwind CSS, and the App Router.
 

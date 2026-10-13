@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Manos Neofotistos",
-  description: "AI, data engineering, systems, and education."
+  title: "Rigas Neofotistos",
+  description: "Primary education, STEM, robotics, and science education."
 };
 
 export default function RootLayout({

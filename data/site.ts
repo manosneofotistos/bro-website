@@ -1,89 +1,135 @@
 export const site = {
-  name: "Manos Neofotistos",
+  name: "Rigas Neofotistos",
   nav: [
     { label: "Work", href: "#work" },
-    { label: "Projects", href: "#projects" },
+    { label: "Highlights", href: "#projects" },
+    { label: "Education", href: "#education" },
+    { label: "Skills", href: "#skills" },
     { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" }
   ],
   hero: {
     headline:
-      "I turn curiosity into AI products, data systems, and learning experiences people can use.",
+      "I help students discover science, robotics, and the confidence to build.",
     intro:
-      "Business Intelligence Engineer at Amazon and co-founder of Kriton AI. I move between large-scale data systems, AI education, and research with a people-first approach.",
-    location: "Luxembourg / Athens",
+      "Primary school teacher, STEM and robotics educator, and science education researcher based in Athens. I design hands-on learning experiences that guide students from curiosity to experimentation, teamwork, and achievement.",
+    location: "Athens, Greece",
     primaryCta: { label: "View work", href: "#work" },
-    secondaryCta: { label: "Get in touch", href: "mailto:neofotistosmanos@gmail.com" },
+    secondaryCta: { label: "Get in touch", href: "mailto:rigas.neofotistos@gmail.com" },
     image: {
-      src: "/crete.jpg",
-      alt: "A bright desk with a laptop, notebook, coffee, and engineering notes.",
-      caption: "Somewhere between systems, data, and Cretan fields..."
+      src: "/profile.jpg",
+      alt: "A bright desk with a laptop, notebooks, and learning materials.",
+      caption: "Somewhere between the classroom, the lab, and a student's next question."
     }
   },
   experience: [
     {
-      period: "2026 to now",
-      role: "Business Intelligence Engineer",
-      organization: "Amazon - Luxembourg City",
-      description:
-        "Building decision systems that help identify high-value cross-border seller expansion opportunities across Europe, quantify untapped revenue potential, and surface expansion blockers for executive decision-making."
-    },
-    {
       period: "2025 to now",
-      role: "Co-founder",
-      organization: "Kriton AI - Athens",
-      organizationHref: "https://kritonai.com",
+      role: "Primary School Teacher",
+      organization: "2nd Primary School of Moschato - Athens",
       description:
-        "Co-founded Greece's first AI academy for future builders, mentoring ambitious high school students through machine learning, Python, and portfolio building. Currently scaling the organization, partnerships, and community."
+        "Providing special education support for 5th grade students, helping learners build confidence, structure, and steady progress inside the primary classroom."
     },
     {
-      period: "2026 to now",
-      role: "AI Research",
-      organization: "Synkrasis Labs - Remote",
-      organizationHref: "https://synkrasis-labs.com/",
+      period: "2024 to 2025",
+      role: "Primary School Teacher",
+      organization: "6th Primary School of Kallithea - Athens",
       description:
-        "Contributing to early-stage AI research projects at an independent research lab whose work spans LLM agent evaluation, real-world agricultural agents, and efficient edge inference, with publications and workshop papers connected to NeurIPS LAW, ICML AIWILD, and MLSys YPS."
+        "Supported 6th grade students in a special education context, adapting classroom practice around student needs, inclusion, and meaningful participation."
+    },
+    {
+      period: "2021 to 2024",
+      role: "Primary School Teacher, STEM & Robotics Educator",
+      organization: "I. M. Panagiotopoulos School - Athens",
+      description:
+        "Taught 4th to 6th grade classes and led STEM and robotics education for 2nd to 6th grade students, combining core learning with project-based exploration."
+    },
+    {
+      period: "2017 to now",
+      role: "STEM Educator & Robotics Coach",
+      organization: "Ampersand Learning & Technology",
+      description:
+        "Coaches robotics teams from preschool through high school, develops astronomy curriculum, and creates educational videos and tutorials across web tools, agriculture, geology, and classroom technology."
     }
   ],
   projects: [
-     {
-      category: "Data product / 2026",
-      title: "Amazon Seller Expansion Intelligence Platform",
+    {
+      category: "Robotics coaching / 2024-2026",
+      title: "National and International Robotics Competitions",
       description:
-        "A large-scale data engineering and decision intelligence platform for European marketplace expansion, processing roughly 1.5B rows on a monthly cadence to estimate revenue potential, attribute economic impact to expansion blockers, and surface business opportunities for marketplace expansion strategy.",
-      tags: ["Data Engineering", "Business Intelligence", "Spark"]
+        "Coached students in WRO Hellas, AegeanRobotics, Unknown Mission League, and MRC Global Olympiad challenges, including a 3rd place Unknown Mission Challenge result at the 12th World Robotics Championship in Oradea and a 6th national award in Unknown Mission League.",
+      tags: ["Robotics", "Coaching", "Student Teams"]
     },
     {
-      category: "AI education / 2025-2026",
-      title: "Kriton AI",
+      category: "STEM learning / 2019-2025",
+      title: "Science Festival and Classroom STEM Projects",
       description:
-        "Designed two 48-hour programs, Introduction to Computer Science & Machine Learning and Advanced ML & AI, guiding students through portfolio-building projects across medical classification, financial analysis, time series forecasting, image classification, and applied AI.",
-      tags: ["AI Education", "Mentorship"],
+        "Designed and presented hands-on STEM experiences including Smart Cities projects, a themed escape room called Save the planet!, robotics showcases, and physics competition preparation for primary school students.",
+      tags: ["STEM", "Physics", "Project-Based Learning"]
     },
     {
-      category: "Research / 2025",
-      title: "LLMs & Game-Theoretic Bluffing",
+      category: "Science education research / 2024",
+      title: "Moon Luminosity Research Publication",
       description:
-        "Research on strategic reasoning and deception in large language models using the Bluffing Game, a dynamic incomplete-information setting that tests how artificial agents bluff, detect deception, adapt under uncertainty, and make sequential decisions.",
-      tags: ["LLMs", "Game Theory", "Research"]
+        "Published research in the International Journal of Science and Mathematics Education on primary students' ideas about whether the Moon is self- or hetero-luminous, connecting astronomy understanding with science education practice.",
+      tags: ["Research", "Astronomy", "Science Education"]
+    }
+  ],
+  education: [
+    {
+      period: "2017 to 2020",
+      role: "M.Sc. Physics in Education",
+      organization: "National and Kapodistrian University of Athens",
+      description:
+        "Graduated with GPA 9.29. Thesis: Investigation of 5th and 6th grade primary school students' ideas on the self- or hetero-luminosity of the Moon."
+    },
+    {
+      period: "2013 to 2017",
+      role: "B.Ed. Primary School Education",
+      organization: "University of Crete",
+      description:
+        "Graduated with GPA 8.35. Thesis: Motives in Education."
+    }
+  ],
+  skills: [
+    {
+      category: "Teaching practice",
+      title: "Primary, STEM, Robotics, and Special Education",
+      description:
+        "Experienced across primary classroom teaching, special education support, STEM workshops, robotics coaching, astronomy curriculum, and student preparation for physics and robotics competitions.",
+      tags: ["Primary Education", "Special Education", "Curriculum"]
+    },
+    {
+      category: "Tools and platforms",
+      title: "Educational Technology Stack",
+      description:
+        "Works with Lego Education WeDo 2.0, Lego Mindstorms EV3, Scratch, ScratchJr, Microsoft MakeCode, Minecraft Education Edition, TinkerCad, Arduino, Active Inspire, SPSS, Microsoft Office, Canva, Camtasia, and Articulate Storyline.",
+      tags: ["Lego Robotics", "Scratch", "Arduino"]
+    },
+    {
+      category: "Languages and digital growth",
+      title: "Communication and Technical Foundations",
+      description:
+        "Native Greek speaker with C2 English proficiency from the University of Michigan, plus basic Python and SQL knowledge through ongoing classes with MIT BWSI, Workearly, and Kriton AI.",
+      tags: ["Greek", "English C2", "Python & SQL"]
     }
   ],
   about: {
     paragraphs: [
-      "I grew up in Crete, Greece, in a family that gave me a lot of freedom early on. That freedom did something useful to me. It made me curious. A lot of my childhood happened between the sea, swimming, and the mountains, with time spent outside with my brother and helping my grandfather in the fields.",
-      "For a while, that made me confused in a funny way. I tried different things, followed different interests, and slowly realized that engineering was the closest thing I had found to a language for curiosity. Why, how, build, repeat: ask what is really going on, understand the why behind it, make something concrete, and learn from the failures along the way.",
-      "That is still how I work. I like machines, models, systems, data, and business, but I put people first, always: how we connect, understand each other, decide, learn, and make new things possible together, asking along the way the whys, the hows, and then acting. I try to apply this principle everywhere. In industry, in personal projects and ambitions, and in the relationships I care about with friends and family."
+      "I work where teaching, science, and hands-on making meet. My path has moved through primary education, physics education research, special education support, STEM workshops, robotics coaching, swimming instruction, and even escape-room facilitation, all with the same instinct: help people learn by doing.",
+      "Space and science education are a constant thread in my work. My master's research explored how 5th and 6th grade students understand the Moon's luminosity, and that curiosity now shows up in astronomy curriculum, robotics challenges, science festival projects, and classroom experiments.",
+      "What matters most to me is guiding students to explore, innovate, and excel. A strong lesson should feel alive: clear enough to support every learner, practical enough to build something real, and open enough for students to ask the next question themselves."
     ]
   },
   contact: {
     lines: [
-      "Keep asking the whys.",
-      "If there is a signal worth chasing in the noise, send it my way."
+      "Let's build learning experiences that students remember.",
+      "For STEM programs, robotics coaching, science education, or classroom collaboration, get in touch."
     ],
     links: [
-      { label: "Email me", href: "mailto:neofotistosmanos@gmail.com" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/manos-neofotistos/" },
-      { label: "GitHub", href: "https://github.com/manosneofotistos" }
+      { label: "Email me", href: "mailto:rigas.neofotistos@gmail.com" },
+      { label: "Phone", href: "tel:+306972439088" },
+      { label: "LinkedIn", href: "https://gr.linkedin.com/in/rigas-neofotistos-295a87363" }
     ]
   }
 } as const;

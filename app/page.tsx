@@ -54,6 +54,22 @@ export default function Home() {
           </div>
         </Section>
 
+        <Section id="education" title="Education" subtitle="Academic background">
+          <div className="grid gap-8">
+            {site.education.map((item) => (
+              <ExperienceItem key={`${item.period}-${item.role}`} {...item} />
+            ))}
+          </div>
+        </Section>
+
+        <Section id="skills" title="Skills" subtitle="Teaching toolkit">
+          <div className="grid gap-5">
+            {site.skills.map((skill) => (
+              <ProjectCard key={skill.title} {...skill} />
+            ))}
+          </div>
+        </Section>
+
         <Section id="about" title="About" subtitle="How I got here">
           <div className="space-y-6 text-lg leading-8 text-muted">
             {site.about.paragraphs.map((paragraph) => (
@@ -76,7 +92,7 @@ export default function Home() {
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
                 href={emailLink.href}
-                aria-label="Email Manos"
+                aria-label={`Email ${site.name}`}
                 className="inline-flex min-h-12 w-full items-center justify-center rounded-md bg-ink px-5 text-sm font-medium text-white transition-colors hover:bg-moss focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-moss sm:w-auto"
               >
                 {emailLink.label}
@@ -87,7 +103,7 @@ export default function Home() {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      aria-label={`Contact Manos via ${link.label}`}
+                      aria-label={`Contact ${site.name} via ${link.label}`}
                       className="inline-flex min-h-12 w-full items-center justify-center rounded-md border border-line bg-ivory/75 px-5 text-sm font-medium text-ink transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-moss sm:w-auto"
                     >
                       {link.label}
